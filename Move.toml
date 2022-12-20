@@ -1,0 +1,11 @@
+[package]
+name = 'coin-flip'
+version = '1.0.0'
+upgrade_policy = "compatible"
+
+[addresses]
+CoinFlip = "0xa1922ba9d7f65934c939d1161525d1ec97252d25c5f7536d448b43a69b092185"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev="devnet"}
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev="devnet"}
